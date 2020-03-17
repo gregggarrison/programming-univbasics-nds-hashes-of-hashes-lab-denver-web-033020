@@ -30,16 +30,8 @@
 #   sub_category: nil
 # }
 
-def naming_system
-  PORTION_1 = {
-    :Kingdom => {
-        :Phylum => {
-          :class => {
-        }
-    }
-      :
-  }
-  
+def naming_system {
+  :label = > "Kingdom"
   
   # Remember:
   #  Kingdom
