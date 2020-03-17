@@ -30,7 +30,8 @@
 #   sub_category: nil
 # }
 
-def naming_system hash = {
+def naming_system 
+  hash = {
    label: "Kingdom",
    sub_category: {
      label: "Phylum",
@@ -53,7 +54,7 @@ def naming_system hash = {
    }
  }
  }
-  
+  hash
   # Remember:
   #  Kingdom
   #  Phylum
